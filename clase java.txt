@@ -1,0 +1,53 @@
+CSS clip-path maker|
+--------------------
+estudiar eso para el parcial;
+
+tarea urgente agregar al principo del arreglo, otro tipo de tarea, al final.
+
+funciones: agregar-quitar, recordarme hacer algo, recordarme cual es la tarea más urgente
+
+var arreglo = []
+
+function Remember(tarea){
+  return arreglo.push(tarea)
+}
+
+function RememberUrgent(tarea){
+  return arreglo.unshift(tarea)
+}
+
+function getTask(){
+  console.log( arreglo.shift())
+}
+
+----------------arreglo de objetos:
+var Journal = [
+	{ events: ["A", "B", "C"], accident: true },
+	{ events: ["C", "D"] }
+];
+---------------------
+
+function journalEvents (journal) {
+	var events = [];
+	for ( let day of journal) {
+		for( let event of day.events){
+			if(!events.includes(event){
+				events.push(event);
+			}
+		}
+	}
+	return events;
+}
+
+-----------propiedades de arreglos como --- investigar qué van en sus parámetros:
+indexOf()
+lastOf()
+slice()
+concat() ----> devolverá un arreglo nuevo
+
+function remove ( array, index ) {
+	return array.slice(0,index).concat(array.slice(index+1))
+}
+
+arreglo de parámetris (tres puntos suspensivos en un arg de función)
+
