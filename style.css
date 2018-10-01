@@ -1,0 +1,24 @@
+/*
+para entrar a etiquetas de manera general, basta colocar su nombre y abrir llaves;
+etiqueta {}
+clases, es necesario abrir con punto y seguido el nombre  de las clases;
+.MiClase {}
+id, es necesario hacer uso del numeral
+#MiID {}
+-----
+Se puede hacer uso de speudoclases para hacer referencias a hijos directos en especfíco:
+p:nth-child() --> dentro de paréntesis iría número (el número del hijo), o un even, u odd...
+acá se leería que afectaría a los elementos p que son hijos de otro elemento...
+Se puede hacer uso del ----> first-child, last-child, only-child, etc.
+una pseudoclase :not() ...
+-----
+selectores ">" ooooo "+" ooooo "~";
+
+
+
+una propiedad que puedo colocar en un
+etiqueta:hover{
+    background-color: #color;   
+    transition : background-color .3s ease-in;
+}
+*/
